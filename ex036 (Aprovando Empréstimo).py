@@ -1,0 +1,5 @@
+casa = float(input('Digite o valor da casa: '))
+salario = float(input('Digite o salário do comprador: '))
+parcela = float(input('Em quantas parcelas irá pagar: '))
+prestacao = casa / (parcela*12)
+print('Empréstimo concedido.' if prestacao <= salario*0.30 else 'Empréstimo negado.')
