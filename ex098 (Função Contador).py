@@ -1,4 +1,5 @@
 from time import sleep
+
 def contador(i, f, p):
     if p < 0:
        p *= -1
@@ -20,6 +21,8 @@ def contador(i, f, p):
             sleep(0.3)
             cont -= p
         print('Fim!')
+        
+        
 contador(1, 10, 1)
 contador(10, 0, 2)
 print('Agora é a sua vez de personalizar a contagem')
