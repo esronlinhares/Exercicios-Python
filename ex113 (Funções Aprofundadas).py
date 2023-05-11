@@ -10,6 +10,8 @@ def leiaInt(msg):
             return 0
         else:
             return n
+        
+        
 def leiaFloat(msg):
     while True:
         try:
@@ -22,6 +24,8 @@ def leiaFloat(msg):
             return 0
         else:
             return n
+        
+        
 n1 = leiaInt('Digite um número Inteiro: ')
 n2 = leiaFloat('Digite um número Real: ')
 print(f'O valor inteiro digitado foi {n1} e o real foi {n2}.')
