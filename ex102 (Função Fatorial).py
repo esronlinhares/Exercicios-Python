@@ -14,6 +14,8 @@ def fatorial(n, show=False):
                 print(' = ', end='')
         f *= c
     return f
+
+
 print(fatorial(5))
 print(fatorial(5, show=True))
 help(fatorial)
