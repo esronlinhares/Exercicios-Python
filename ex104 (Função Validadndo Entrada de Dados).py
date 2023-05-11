@@ -8,5 +8,7 @@ def leiaInt(msg):
         else:
             print('Erro! Digite um número inteiro válido.')
     return valor
+
+
 n = leiaInt('Digite um número: ')
 print(f'Você acabou de digitar o número {n}.')
